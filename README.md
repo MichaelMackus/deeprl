@@ -20,8 +20,11 @@ Alternatively, scons also works (Windows/Mac/Linux):
 
 ```
 git submodule update libtcod
-cd libtcod/buildsys/autotools/
+cd libtcod/buildsys/scons/
 scons build
 ```
+
+See the README.md file in the relevant buildsys subdirectory for dependency
+information.
 
 *TODO: build application*
